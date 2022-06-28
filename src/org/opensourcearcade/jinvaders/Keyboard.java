@@ -1,6 +1,10 @@
 package org.opensourcearcade.jinvaders;
 
 import java.awt.event.KeyEvent;
+import java.applet.*;
+import java.awt.*;
+import java.awt.event.*;
+
 
 public class Keyboard {
     private boolean leftKey, rightKey, spaceKey, escKey, enterKey, backKey, spaceKeyReleased;

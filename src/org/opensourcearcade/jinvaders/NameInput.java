@@ -3,7 +3,7 @@ package org.opensourcearcade.jinvaders;
 import java.awt.*;
 
 public class NameInput {
-    private static final String STR_INPUTNAME = "INPUT YOUR NAME";
+    private static final String STR_INPUTNAME = "INSIRA SEU NOME";
 
     public static void draw(Graphics g, FontMetrics metrics, int width, int height, String tmpPlayerName, int inputCaretPos) {
         int h = metrics.getHeight();

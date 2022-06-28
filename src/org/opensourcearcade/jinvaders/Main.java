@@ -7,8 +7,8 @@ import java.awt.event.WindowEvent;
 public class Main {
 
     public static void main(String[] args) {
+    	//CORREÇÃO DE ERRO PARA O LINUX 
         try {
-            // fix the JNLP desktop icon exec rights bug (Linux only)
             if (System.getProperty("os.name").toLowerCase().indexOf("linux") != -1) {
                 java.io.File desktop = new java.io.File(System.getProperty("user.home") + "/Desktop");
                 if (desktop.exists()) {

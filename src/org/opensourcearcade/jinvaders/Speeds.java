@@ -4,10 +4,10 @@ public class Speeds {
     // speed in pixels per sec
     private static final int PLAYER_SPEED = 200;
     private static final int PLAYER_SHOT_SPEED = 300;
-    private static final int ALIEN_SPEED = 400;
-    private static final int UFO_SPEED = 75;
-    private static final int ALIEN_SHOT_SPEED = 150;
-    private static final int ALIEN_SHOT_FREQ = 1000;
+    private static final int ALIEN_SPEED = 500;
+    private static final int UFO_SPEED = 90;
+    private static final int ALIEN_SHOT_SPEED = 275;
+    private static final int ALIEN_SHOT_FREQ = 350;
 
     public Speeds() {
     }
